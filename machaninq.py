@@ -7,8 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # === Your Facebook credentials ===
-FB_EMAIL = "shashwats500@gmail.com"
-FB_PASSWORD = "Ravi@123"
+FB_EMAIL = "your_email_here"
+FB_PASSWORD = "your_pass_here"
 
 # Launch browser
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -74,3 +74,4 @@ for i, post_content in enumerate(posts_data[:20]):  # show first 20 posts
     print(f"Post {i+1}:\n{post_content}\n{'-'*50}")
 
 driver.quit()
+
