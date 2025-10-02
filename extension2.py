@@ -7,8 +7,8 @@ import time
 import csv
 
 # === Facebook credentials ===
-FB_EMAIL = "shashwats500@gmail.com"
-FB_PASSWORD = "Ravi@123"
+FB_EMAIL = "your_email_here"
+FB_PASSWORD = "your_pass_here"
 
 # === Setup Chrome ===
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -104,3 +104,4 @@ with open("friends_posts.csv", "w", newline="", encoding="utf-8") as file:
 
 print("✅ All data saved to friends_posts.csv")
 driver.quit()
+
